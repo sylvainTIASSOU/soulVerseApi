@@ -18,10 +18,16 @@ poetry.lock
 coverage.xml
 .env/*
 
+# Environment template files (allowed)
+!.env.template
+!.env.example
+
 # Google Cloud Service Account Credentials
 *.json
 !**/test*.json
 !**/example*.json
+!**/*template*.json
+!**/*-template.json
 
 # Credentials and secrets
 **/credentials/
