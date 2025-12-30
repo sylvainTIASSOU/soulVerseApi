@@ -1,0 +1,28 @@
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+ENV/
+.venv/
+.idea/
+.vscode/
+.DS_Store
+.env.*
+migrations.sh
+poetry.lock
+.env
+.pytest_cache/
+coverage.xml
+.env/*
+
+# Google Cloud Service Account Credentials
+*.json
+!**/test*.json
+!**/example*.json
+
+# Credentials and secrets
+**/credentials/
+**/secrets/
