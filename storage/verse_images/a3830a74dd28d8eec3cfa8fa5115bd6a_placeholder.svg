@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#87CEEB" />
+      <stop offset="100%" stop-color="#FFFFFF" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bgGrad)" />
+  <circle cx="400" cy="150" r="80" fill="#FFFFFF" opacity="0.3" />
+  <text x="400" y="200" text-anchor="middle" fill="#191970" 
+        font-family="Arial, sans-serif" font-size="24" font-weight="bold">
+    📖 Verset Spirituel
+  </text>
+  <text x="400" y="250" text-anchor="middle" fill="#191970" 
+        font-family="Arial, sans-serif" font-size="18">
+    Jérémie 29:11
+  </text>
+  <text x="400" y="320" text-anchor="middle" fill="#191970" 
+        font-family="Arial, sans-serif" font-size="16" font-style="italic">
+    Mood: Paix
+  </text>
+  <text x="400" y="400" text-anchor="middle" fill="#191970" 
+        font-family="Arial, sans-serif" font-size="14" opacity="0.7">
+    Dieu a de beaux projets pour ta vie. Même dans l'incertitude...
+  </text>
+  <circle cx="100" cy="500" r="8" fill="#FFFFFF" opacity="0.6" />
+  <circle cx="700" cy="500" r="8" fill="#FFFFFF" opacity="0.6" />
+  <text x="400" y="550" text-anchor="middle" fill="#191970" 
+        font-family="Arial, sans-serif" font-size="12" opacity="0.5">
+    SoulVerse - Méditation Biblique
+  </text>
+</svg>

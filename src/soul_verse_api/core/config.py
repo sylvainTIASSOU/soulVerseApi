@@ -31,5 +31,15 @@ class Settings(BaseSettings):
     DEFAULT_TRANSLATION: str = "FreBBB"
     ENVIRONMENT: str = "production"
 
+    # Image Generation Configuration
+    OPENAI_API_KEY: str = ""
+    STABILITY_API_KEY: str = ""
+
+    # Image generation settings
+    ENABLE_IMAGE_GENERATION: bool = True
+    # "local", "dalle", "stability", "auto"
+    DEFAULT_IMAGE_METHOD: str = "stability"
+    IMAGE_CACHE_DAYS: int = 7
+
 
 settings = Settings()
